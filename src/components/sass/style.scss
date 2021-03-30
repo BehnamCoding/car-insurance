@@ -1,0 +1,87 @@
+@import '~mdb-ui-kit/css/mdb.min.css';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import './fonts';
+
+* {
+    font-family: iranyekanregRegular;
+}
+
+body {
+    background: linear-gradient(to right, #ff4366, #ff2d54);
+}
+
+.container {
+    position: relative;
+    hr {
+        margin: 3px;
+    }
+    .title {
+        font-family: iranyekanBold;
+        text-shadow: 2px 2px 3px #00000096;
+    }
+    .box {
+        .card {
+            margin-top: 0 !important;
+            box-shadow: 3px 3px 10px #00000080;
+            .card-header {
+                padding: 20px 0;
+                text-align: center;
+            }
+            .card-body {
+                padding: 1.5rem 2rem;
+                text-align: justify !important;
+                .top {
+                    label {
+                        font-size: 13px;
+                    }
+                    .select {
+                        &-one, &-two {
+                            width: 45%;
+                        }
+                    }
+                    .form-select {
+                        background-position: left .75rem center;
+                        padding-right: 20px;
+                    }
+                }
+                .bottom {
+                    span {
+                        font-size: 14.5px;
+                    }
+                    .items {
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+    #factor {
+        .spinner-img {
+            width: 200px;
+            height: 200px;
+            margin: auto;
+            margin-top: 20px;
+            display: none;
+        }
+        .inner {
+            padding: 8px 0;
+            li {
+                list-style: circle;
+                margin-bottom: 25px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    .result-box {
+        .card {
+            border-bottom: 8px solid #39c0ed;
+            box-shadow: 3px 3px 7px #0000006b;
+            .card-header {
+                text-shadow: 1px 1px 1.5px #000000dc;
+                font-size: 17.5px;
+            }
+        }
+    }
+}
